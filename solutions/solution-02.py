@@ -4,6 +4,11 @@ sys.setrecursionlimit(10000)
 
 n, m = map(int, input().split())
 
+if n == 0:
+    print("-")
+    print("-")
+    exit()
+
 s = input().split()
 a = []
 for x in s:
