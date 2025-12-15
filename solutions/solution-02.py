@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 n, m = map(int, input().split())
 if n == 0:
-    print("-"); print("-"); print("-"); print("-"); exit()
+	print("-");
+	print("-");
+	exit()
 
 a = input().split()
 idx = {a[i]: i for i in range(n)}
