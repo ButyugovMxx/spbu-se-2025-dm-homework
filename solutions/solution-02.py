@@ -27,6 +27,7 @@ for _ in range(m):
     incoming[idx[y]].append(idx[x])
     outgoing[idx[x]].append(idx[y])
 
+
 #нет входящих рёбер
 mins = [a[i] for i in range(n) if not incoming[i]]
 #нет исходящих рёбер
